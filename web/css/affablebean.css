@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main {
+    background: #eee;
+}
+
+#header {
+    height: 250px;
+    background: #aaa;
+}
+
+#leftside {
+    width: 350px;
+    height: 400px;
+    float: left;
+    background: #ccc
+}
+
+#rightside {
+    width: 500px;
+    height: 400px;
+    float: left;
+    background: #ccc;
+}
+
+#footer {
+    height: 60px;
+    background: #aaa;
+    clear: left;
+}
