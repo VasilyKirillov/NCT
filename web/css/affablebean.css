@@ -14,11 +14,47 @@ body {
     background: #aaa;
 }
 
+#widgetBar {
+    height: 50px;
+    width: 850px;
+    float: right;
+    background: #ccc;
+}
+
+.headerWidget {
+    width: 194px;
+    margin: 20px 2px;
+    font-size: small;
+    background: #aaa;
+    line-height: 25px;
+    float: right;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: -20px 0 0 30px;
+    /*    margin-left: 30px;
+        margin-top: -20px;*/
+    border: blue dashed 2px;
+}
+
+#logoText {
+    float: left;
+    margin: 20px 0 0 70px;
+    /* font styles apply to text within alt tags */
+    /*font-family: 'American Typewriter', Courier, monospace;*/
+    font-family: Sybmol, Lucida, Verdana, Tahoma;
+    font-size: 50px;
+    color: #333;
+}
+
 #leftside {
     width: 350px;
     height: 400px;
     float: left;
-    background: #ccc
+    background: #bbb
 }
 
 #rightside {
@@ -28,8 +64,30 @@ body {
     background: #ccc;
 }
 
+.categoryBox {
+    height: 176px;
+    width: 212px;
+    margin: 21px 14px 6px;
+    float: inherit;
+    background: #bbb;
+}
+
+.categoryLabelText {
+    line-height: 150%;
+    font-size: x-large;
+}
+
 #footer {
     height: 60px;
+    width: 350px;
     background: #aaa;
     clear: left;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 300px;
 }

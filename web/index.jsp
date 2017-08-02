@@ -16,10 +16,10 @@
         <div id="main">
             <div id="header">
                 <div id="widgetBar">
-                    <div id="headerWidget">
+                    <div class="headerWidget">
                         [ language toggle ]
                     </div>
-                    <div id="headerWidget">
+                    <div class="headerWidget">
                         [ shopping cart widget ]
                     </div>
                 </div>   
@@ -28,17 +28,39 @@
                     <img src="#" id="logo" alt="Affable Bean logo" />
                 </a>
 
-                <img src="#" id="logotext" alt="the affable bean" />
+                <img src="#" id="logoText" alt="the affable bean" />
 
             </div>
             <div id="leftside">
-                left side
+                <div id="welcomeText">
+                    <p>[ welcome text ]</p>
+                </div>
             </div>
             <div id="rightside">
-                right side
+                <div class="categoryBox">
+                    <a href="#">
+                        <span class="categoryLabelText">Fruits</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="#">
+                        <span class="categoryLabelText">Vegetables</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="#">
+                        <span class="categoryLabelText">Nuts</span>
+                    </a>
+                </div>
+                <div class="categoryBox">
+                    <a href="#">
+                        <span class="categoryLabelText">Cereals</span>
+                    </a>
+                </div>
             </div>
             <div id="footer">
-                footer
+                <hr>
+                <p id="footerText">[ footer text ]</p>
             </div>
         </div>
     </body>
